@@ -2,13 +2,7 @@
 #include <stdlib.h> // Para alocar memória dinamicamente
 #include <time.h>   // Para a função clock()
 #include <math.h>  
-void imprimirVetor(int vetor[], long long tamanho) {
-    printf("[ ");
-    for (int i = 0; i < tamanho; i++) {
-        printf("%d ", vetor[i]);
-    }
-    printf("]\n");
-}
+
 void ordenacao(int lista[], long long num) {
     int i, j, aux;
     for (i = 0; i < num; i++) {
