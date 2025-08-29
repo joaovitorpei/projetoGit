@@ -54,13 +54,13 @@ int main() {
     imprimirVetor(vetor, tam);
 
     //Vetor inversa
-    printf("Vetor Inverso com n = %lld\n", tam);
-    VetorInverso(vetor, tam);
-    printf("antes\n");
-    imprimirVetor(vetor, tam);
-    ordenacao(vetor, tam);
-    printf("depois\n");
-    imprimirVetor(vetor, tam);
+    //printf("Vetor Inverso com n = %lld\n", tam);
+    //VetorInverso(vetor, tam);
+    //printf("antes\n");
+    //imprimirVetor(vetor, tam);
+    //ordenacao(vetor, tam);
+    //printf("depois\n");
+    //imprimirVetor(vetor, tam);
 
 
     free(vetor);
